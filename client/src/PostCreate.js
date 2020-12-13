@@ -14,7 +14,7 @@ export default function PostCreate() {
     <div>
       <form onSubmit={onSubmit}>
         <div className="form-group">
-          <label for="post">Title</label>
+          <label>Title</label>
           <input
             value={title}
             onChange={(event) => setTitle(event.target.value)}

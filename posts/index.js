@@ -1,10 +1,12 @@
 import express from "express";
 import { v4 } from "uuid";
 import bodyParser from "body-parser";
+import cors from "cors";
 
 // set up bodyparser for request body
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 // In memory storage
 const posts = {};
