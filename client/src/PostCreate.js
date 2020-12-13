@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function PostCreate() {
+const PostCreate = () => {
   const [title, setTitle] = useState("");
 
   const onSubmit = async (event) => {
@@ -23,8 +23,10 @@ export default function PostCreate() {
             className="form-control"
           />
         </div>
-        <button className="btn btn-primary">Submit</button>
+        <button className="btn btn-primary mt-2">Submit</button>
       </form>
     </div>
   );
-}
+};
+
+export default PostCreate;
