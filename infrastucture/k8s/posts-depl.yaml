@@ -13,5 +13,5 @@ spec:
         app: blog-posts
     spec:
       containers:
-        - name: blog-posts
-          image: floydkretschmar/blog-posts:0.0.1
+        - name: posts
+          image: floydkretschmar/posts
