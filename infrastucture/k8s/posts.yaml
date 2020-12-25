@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: blog-posts
-spec:
-  containers:
-    - name: blog-posts
-      image: floydkretschmar/blog-posts:0.0.1
