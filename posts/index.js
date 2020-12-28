@@ -18,7 +18,7 @@ app.get("/posts", (req, res) => {
 });
 
 // Add a new post
-app.post("/posts", async (req, res) => {
+app.post("/posts/create", async (req, res) => {
   const id = v4();
   const { title } = req.body;
 
